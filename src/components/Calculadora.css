@@ -1,0 +1,125 @@
+
+.calculadora{
+    background-color: #f39faa;
+    border-radius: 1em;
+    box-shadow: 0 0.75em #c4505f;
+    padding: 1em;
+    text-align: center;
+    transition: all 500ms ease;
+}
+
+.calculadora.dark{
+    background-color: #c4505f;
+    border-radius: 1em;
+    box-shadow: 0 0.75em #873741;
+    padding: 1em;
+    text-align: center;
+    transition: all 500ms ease;
+}
+
+.display{
+    align-items: center;
+    background-color: #f9ced5;
+    border: none;
+    border-radius: 1em;
+    box-shadow: inset 0 0.1em #c4505f;
+    color: #c4505f;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: bolder;
+    height: 2em;
+    justify-content: flex-end;
+    margin: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    transition: all 500ms ease;
+}
+
+.display.dark{
+    align-items: center;
+    background-color: #f39faa;
+    border: none;
+    border-radius: 1em;
+    box-shadow: inset 0 0.1em #873741;
+    color: #873741;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: bolder;
+    height: 2em;
+    justify-content: flex-end;
+    margin: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    transition: all 500ms ease;
+}
+
+.calculadora button{
+    background-color: #ed6f80;
+    border: none;
+    box-shadow: 0 0.25em #c4505f;
+    border-radius: 1em;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    height: 2em;
+    margin: 0.3em;
+    padding: 0.5em;
+    transition: all 500ms ease;
+    width: 3em;
+}
+
+.calculadora button:hover{
+    box-shadow: 0 0.175em #c4505f;
+    cursor: pointer;
+    transform: translateY(0.075em);
+    transition: all 100ms ease;
+}
+
+.calculadora button:active{
+    box-shadow: 0 0.05em #c4505f;
+    transform: translateY(0.2em);
+    transition: all 100ms ease;
+}
+
+
+.calculadora.dark button{
+    background-color: #873741;
+    border: none;
+    box-shadow: 0 0.25em #662b32;
+    border-radius: 1em;
+    color: rgb(228, 228, 228);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    height: 2em;
+    margin: 0.3em;
+    padding: 0.5em;
+    transition: all 500ms ease;
+    width: 3em;
+}
+
+.calculadora.dark button:hover{
+    box-shadow: 0 0.175em #5b262c;
+    cursor: pointer;
+    transform: translateY(0.075em);
+    transition: all 100ms ease;
+}
+
+.calculadora.dark button:active{
+    box-shadow: 0 0.05em #5b262c;
+    transform: translateY(0.2em);
+    transition: all 100ms ease;
+}
+
+
+html{
+    background-color: #ffe7eb;
+    transition: all 500ms ease;
+}
+
+html.dark {
+    background-color: #f39faa;
+    transition: all 500ms ease;
+}
+
