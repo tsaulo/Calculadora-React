@@ -154,6 +154,11 @@ const Calculadora = () => {
           +
         </button>
       </div>
+      <div style={{ textAlign: "right", width: "90%" }}>
+        <p>
+          <a href="https://github.com/tsaulo">@tsaulo</a>
+        </p>
+      </div>
     </Container>
   );
 };

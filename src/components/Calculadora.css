@@ -116,10 +116,21 @@
 html{
     background-color: #ffe7eb;
     transition: all 500ms ease;
+    color: #ed6f80;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+a{
+    color: inherit;
 }
 
 html.dark {
     background-color: #f39faa;
     transition: all 500ms ease;
+    color: #873741;
 }
 
